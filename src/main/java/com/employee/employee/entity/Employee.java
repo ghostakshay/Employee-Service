@@ -7,6 +7,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+/**
+ * This is employee class which holds information related to employee.
+ */
 @Entity
 @Table(name = "employee")
 public class Employee {
